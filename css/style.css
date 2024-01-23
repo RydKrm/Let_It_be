@@ -1,0 +1,205 @@
+body{
+    background-color: rgba(15, 15, 15, 0.965);
+}
+
+.media img {
+    height: 209px;
+    width: 329px;
+}
+.card-container {
+    float: left;
+    margin: 0 47px;
+    padding: 0 2px;
+    margin-top: 78px;
+}
+
+.media-container {
+    width: 30%;
+    float: left;
+    margin-right: 37px;
+}
+
+.media-text {
+    text-align: justify;
+    color: navajowhite;
+}
+
+.middle-text {
+    text-align: center;
+    margin: 113px;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    opacity: 0.8;
+    color: white;
+}
+
+.form-contain {
+    margin: 123px 0;
+    border: 2px solid gainsboro;
+    padding: 28px;
+}
+.card-text{
+    color: white;
+}
+.widget-contain {
+    float: left;
+    width: 30%;
+    margin-right: 20px;
+    color: black;
+}
+
+.btn-link:hover, .btn-link:focus {
+    color: #665987;
+    text-decoration: underline;
+    background-color: aqua;
+}
+
+div#accordionExample {
+    background-color: dimgrey;
+    color: white;
+}
+
+.btn-link, .btn-link:hover, .btn-link:focus, .btn-link:active {
+    border-color: transparent;
+    border: 2px solid azure;
+    font-size: 20px;
+    color: white;
+}
+
+.button-contain {
+    margin: 57px 0;
+}
+button.btn{
+    margin: 0 38px;
+}
+button.btn {
+    margin: 0 28px;
+    width: 152px;
+    margin-top: 16px;
+    height: 49px;
+}
+
+@media (min-width: 768px){
+.navbar-nav > li {
+    float: left;
+    text-decoration: none;
+    margin: 11px 31px;
+    display: flex;
+    font-size: medium;
+}
+}
+.navbar-brand {
+    float: left;
+    padding: 49px 15px;
+    font-size: 20px;
+    line-height: 24px;
+    height: 50px;
+}
+
+@media (min-width: 768px){
+.navbar-collapse.collapse {
+    display: block !important;
+    visibility: visible !important;
+    height: auto !important;
+    padding-bottom: 0;
+    overflow: visible !important;
+    background-color: gainsboro;
+}
+}
+
+@media (min-width: 768px){
+.navbar-collapse.collapse {
+    display: block !important;
+    visibility: visible !important;
+    height: auto !important;
+    padding-bottom: 0;
+    overflow: visible !important;
+    background-color: gainsboro;
+    height: 50px;
+    height: 60px;
+}
+}
+
+/* button.btn {
+    margin: 0 25px;
+    width: 123px;
+    margin-top: 14px;
+    height: 44px;
+    background-color: white;
+    margin-bottom: 8px;
+} */
+
+.joombutton-contain {
+    margin: 62px 0;
+}
+
+.jumbotron p {
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.nav-item:hover{
+    background-color: white;
+    /* color: white; */
+
+}
+
+@media (max-width: 1190px){
+.media-container {
+    width: 40%;
+    float: left;
+}
+}
+
+@media (max-width: 550px){
+
+    .media-container {
+        width: 100%;
+        float: left;
+    }
+
+}
+
+@media (max-width: 1190px){
+    .card-container {
+        width: 35%;
+        float: left;
+    }
+    }
+    
+    @media (max-width: 550px){
+    
+        .widget-contain {
+            width: 100%;
+            float: left;
+        }
+    }
+
+
+    @media (max-width: 1190px){
+        .widget-contain {
+            width: 46%;
+            float: left;
+        }
+        }
+        
+        @media (max-width: 550px){
+        
+            .widget-contain {
+                width: 100%;
+                float: left;
+            }
+        
+        }
+
+
+        .jumbotron {
+            padding: 30px 15px;
+            margin-bottom: 30px;
+            color: inherit;
+            background-color: #eeeeee;
+            text-align: center;
+        }
+    
